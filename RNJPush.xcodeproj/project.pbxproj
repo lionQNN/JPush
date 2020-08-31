@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC967591DCD2CC6AAF344C5 /* libPods-RNJPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BB579B43A8623A4D4B3E5F /* libPods-RNJPush.a */; };
+		6151FFA724FCAE4300A43096 /* JPUSHService.h in Sources */ = {isa = PBXBuildFile; fileRef = 61D2249B24F7BFE90040BCAD /* JPUSHService.h */; };
+		6151FFAF24FCAFCA00A43096 /* RCTJPushModule.h in Sources */ = {isa = PBXBuildFile; fileRef = 61D2249C24F7BFE90040BCAD /* RCTJPushModule.h */; };
+		6151FFB424FCB61300A43096 /* RCTJPushEventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6151FFB224FCB61300A43096 /* RCTJPushEventQueue.m */; };
+		6151FFB524FCB61300A43096 /* RCTJPushEventQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6151FFB324FCB61300A43096 /* RCTJPushEventQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6151FFB624FCB62700A43096 /* RCTJPushEventQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 6151FFB324FCB61300A43096 /* RCTJPushEventQueue.h */; };
+		61D224A024F7BFE90040BCAD /* RCTJPushModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D2249A24F7BFE90040BCAD /* RCTJPushModule.m */; };
+		61D224A124F7BFE90040BCAD /* JPUSHService.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D2249B24F7BFE90040BCAD /* JPUSHService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D224A224F7BFE90040BCAD /* RCTJPushModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D2249C24F7BFE90040BCAD /* RCTJPushModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D224A324F7BFE90040BCAD /* libjpush-ios-3.2.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D2249D24F7BFE90040BCAD /* libjpush-ios-3.2.8.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39BB579B43A8623A4D4B3E5F /* libPods-RNJPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNJPush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6151FFB224FCB61300A43096 /* RCTJPushEventQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTJPushEventQueue.m; path = RNJPush/RCTJPushEventQueue.m; sourceTree = "<group>"; };
+		6151FFB324FCB61300A43096 /* RCTJPushEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTJPushEventQueue.h; path = RNJPush/RCTJPushEventQueue.h; sourceTree = "<group>"; };
+		61D2248D24F7BFA30040BCAD /* RNJPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNJPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D2249124F7BFA30040BCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D2249A24F7BFE90040BCAD /* RCTJPushModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTJPushModule.m; sourceTree = "<group>"; };
+		61D2249B24F7BFE90040BCAD /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		61D2249C24F7BFE90040BCAD /* RCTJPushModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTJPushModule.h; sourceTree = "<group>"; };
+		61D2249D24F7BFE90040BCAD /* libjpush-ios-3.2.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libjpush-ios-3.2.8.a"; sourceTree = "<group>"; };
+		726687EE2F1B14B191B1DA16 /* Pods-RNJPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNJPush.release.xcconfig"; path = "Target Support Files/Pods-RNJPush/Pods-RNJPush.release.xcconfig"; sourceTree = "<group>"; };
+		DF46FD7A242D59BE4DEA1B99 /* Pods-RNJPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNJPush.debug.xcconfig"; path = "Target Support Files/Pods-RNJPush/Pods-RNJPush.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D2248A24F7BFA30040BCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D224A324F7BFE90040BCAD /* libjpush-ios-3.2.8.a in Frameworks */,
+				1AC967591DCD2CC6AAF344C5 /* libPods-RNJPush.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1917D61B119CC38A74151C26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF46FD7A242D59BE4DEA1B99 /* Pods-RNJPush.debug.xcconfig */,
+				726687EE2F1B14B191B1DA16 /* Pods-RNJPush.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		61D2248324F7BFA30040BCAD = {
+			isa = PBXGroup;
+			children = (
+				6151FFB324FCB61300A43096 /* RCTJPushEventQueue.h */,
+				6151FFB224FCB61300A43096 /* RCTJPushEventQueue.m */,
+				61D2248F24F7BFA30040BCAD /* RNJPush */,
+				61D2248E24F7BFA30040BCAD /* Products */,
+				1917D61B119CC38A74151C26 /* Pods */,
+				D644C4EE39BF250001CBF668 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61D2248E24F7BFA30040BCAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D2248D24F7BFA30040BCAD /* RNJPush.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D2248F24F7BFA30040BCAD /* RNJPush */ = {
+			isa = PBXGroup;
+			children = (
+				61D2249124F7BFA30040BCAD /* Info.plist */,
+				61D2249B24F7BFE90040BCAD /* JPUSHService.h */,
+				61D2249D24F7BFE90040BCAD /* libjpush-ios-3.2.8.a */,
+				61D2249C24F7BFE90040BCAD /* RCTJPushModule.h */,
+				61D2249A24F7BFE90040BCAD /* RCTJPushModule.m */,
+			);
+			path = RNJPush;
+			sourceTree = "<group>";
+		};
+		D644C4EE39BF250001CBF668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39BB579B43A8623A4D4B3E5F /* libPods-RNJPush.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61D2248824F7BFA30040BCAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D224A224F7BFE90040BCAD /* RCTJPushModule.h in Headers */,
+				6151FFB524FCB61300A43096 /* RCTJPushEventQueue.h in Headers */,
+				61D224A124F7BFE90040BCAD /* JPUSHService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61D2248C24F7BFA30040BCAD /* RNJPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D2249524F7BFA30040BCAD /* Build configuration list for PBXNativeTarget "RNJPush" */;
+			buildPhases = (
+				B081A9E794C1F90E5728AE7A /* [CP] Check Pods Manifest.lock */,
+				61D2248824F7BFA30040BCAD /* Headers */,
+				61D2248924F7BFA30040BCAD /* Sources */,
+				61D2248A24F7BFA30040BCAD /* Frameworks */,
+				61D2248B24F7BFA30040BCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNJPush;
+			productName = RNJPush;
+			productReference = 61D2248D24F7BFA30040BCAD /* RNJPush.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61D2248424F7BFA30040BCAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "秦宁宁";
+				TargetAttributes = {
+					61D2248C24F7BFA30040BCAD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 61D2248724F7BFA30040BCAD /* Build configuration list for PBXProject "RNJPush" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61D2248324F7BFA30040BCAD;
+			productRefGroup = 61D2248E24F7BFA30040BCAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61D2248C24F7BFA30040BCAD /* RNJPush */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61D2248B24F7BFA30040BCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B081A9E794C1F90E5728AE7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNJPush-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61D2248924F7BFA30040BCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6151FFB624FCB62700A43096 /* RCTJPushEventQueue.h in Sources */,
+				6151FFAF24FCAFCA00A43096 /* RCTJPushModule.h in Sources */,
+				6151FFB424FCB61300A43096 /* RCTJPushEventQueue.m in Sources */,
+				6151FFA724FCAE4300A43096 /* JPUSHService.h in Sources */,
+				61D224A024F7BFE90040BCAD /* RCTJPushModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		61D2249324F7BFA30040BCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61D2249424F7BFA30040BCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61D2249624F7BFA30040BCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF46FD7A242D59BE4DEA1B99 /* Pods-RNJPush.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RNJPush/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNJPush",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = QNN.RNJPush;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		61D2249724F7BFA30040BCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726687EE2F1B14B191B1DA16 /* Pods-RNJPush.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RNJPush/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNJPush",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = QNN.RNJPush;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61D2248724F7BFA30040BCAD /* Build configuration list for PBXProject "RNJPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D2249324F7BFA30040BCAD /* Debug */,
+				61D2249424F7BFA30040BCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D2249524F7BFA30040BCAD /* Build configuration list for PBXNativeTarget "RNJPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D2249624F7BFA30040BCAD /* Debug */,
+				61D2249724F7BFA30040BCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61D2248424F7BFA30040BCAD /* Project object */;
+}
