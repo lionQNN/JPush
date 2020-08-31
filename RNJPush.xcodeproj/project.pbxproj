@@ -16,7 +16,7 @@
 		61D224A024F7BFE90040BCAD /* RCTJPushModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D2249A24F7BFE90040BCAD /* RCTJPushModule.m */; };
 		61D224A124F7BFE90040BCAD /* JPUSHService.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D2249B24F7BFE90040BCAD /* JPUSHService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61D224A224F7BFE90040BCAD /* RCTJPushModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D2249C24F7BFE90040BCAD /* RCTJPushModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61D224A324F7BFE90040BCAD /* libjpush-ios-3.2.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D2249D24F7BFE90040BCAD /* libjpush-ios-3.2.8.a */; };
+		61E0A61124FD12ED00289D4A /* libjpush-ios-3.2.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E0A61024FD12ED00289D4A /* libjpush-ios-3.2.8.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		61D2249A24F7BFE90040BCAD /* RCTJPushModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTJPushModule.m; sourceTree = "<group>"; };
 		61D2249B24F7BFE90040BCAD /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		61D2249C24F7BFE90040BCAD /* RCTJPushModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTJPushModule.h; sourceTree = "<group>"; };
-		61D2249D24F7BFE90040BCAD /* libjpush-ios-3.2.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libjpush-ios-3.2.8.a"; sourceTree = "<group>"; };
+		61E0A61024FD12ED00289D4A /* libjpush-ios-3.2.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libjpush-ios-3.2.8.a"; sourceTree = "<group>"; };
 		726687EE2F1B14B191B1DA16 /* Pods-RNJPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNJPush.release.xcconfig"; path = "Target Support Files/Pods-RNJPush/Pods-RNJPush.release.xcconfig"; sourceTree = "<group>"; };
 		DF46FD7A242D59BE4DEA1B99 /* Pods-RNJPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNJPush.debug.xcconfig"; path = "Target Support Files/Pods-RNJPush/Pods-RNJPush.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61D224A324F7BFE90040BCAD /* libjpush-ios-3.2.8.a in Frameworks */,
+				61E0A61124FD12ED00289D4A /* libjpush-ios-3.2.8.a in Frameworks */,
 				1AC967591DCD2CC6AAF344C5 /* libPods-RNJPush.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,9 +80,9 @@
 			children = (
 				61D2249124F7BFA30040BCAD /* Info.plist */,
 				61D2249B24F7BFE90040BCAD /* JPUSHService.h */,
-				61D2249D24F7BFE90040BCAD /* libjpush-ios-3.2.8.a */,
 				61D2249C24F7BFE90040BCAD /* RCTJPushModule.h */,
 				61D2249A24F7BFE90040BCAD /* RCTJPushModule.m */,
+				61E0A61024FD12ED00289D4A /* libjpush-ios-3.2.8.a */,
 			);
 			path = RNJPush;
 			sourceTree = "<group>";
